@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { MaterializeModule } from 'ng2-materialize';
+import { ColorPickerModule } from 'ngx-color-picker';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -11,7 +13,9 @@ import { MaterializeModule } from 'ng2-materialize';
   ],
   imports: [
     BrowserModule,
-    MaterializeModule.forRoot()
+    MaterializeModule.forRoot(),
+    ColorPickerModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
