@@ -1,4 +1,4 @@
-mport { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { QuestionsAnswer } from '../../../shared/questions_answer.model';
 
 @Component({
